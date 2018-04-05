@@ -1,0 +1,77 @@
+    
+@font-face {
+    font-family: a;
+    src: url(../font/A.ttf);
+}
+
+html, body {
+    
+    text-transform: uppercase;
+    background-color: black;
+    background: white;
+    color: white;
+    font-family: a !important;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1;
+    cursor: default;
+    background: url(../images/bk.jpg) no-repeat fixed center top black;
+}
+.container{
+        max-width: 1000px;
+        text-transform: uppercase;
+}
+.logo {
+    background: url(../images/logo.png) no-repeat scroll center left transparent;
+    height: 100px;
+    width: 332px;
+    margin: 0.625rem 0px;
+    display: block;
+}
+#login{   
+   border-radius:0px;
+   background-color:#fff200;
+   color: black;
+   border:none;
+}
+#city{   
+   border-radius:0px;
+   background-color:black;
+   height: 34px;
+   color: white;
+   border:none;
+}
+.btn{
+    text-transform: uppercase;
+   font-family: a !important;   
+}
+.form-control {margin-bottom:5px;}
+.popover {max-width:230px;}
+
+.navbar-inverse {
+    background-color: black;
+    border:none;
+}
+
+.navbar {
+    border-radius: 0px;
+    min-height: 30px;
+    margin-bottom: 0px;
+}
+.navbar-nav>li>a {
+        padding-top: 1px;
+    padding-bottom: 1px;
+        line-height: 30px;
+}
+.active a{
+    background-color: #26abe2 !important;
+}
+.carousel{
+    background: ##333333;;
+}
+.carousel .item img{
+    margin: 0 auto;
+}
+.bs-example{
+    margin: 20px;
+}
